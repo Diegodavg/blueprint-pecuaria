@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "studio": "remotion studio src/index.tsx",
+    "render": "remotion render src/index.tsx IntegumentarySystem out/SistemaTegumentar.mp4",
+    "preview": "remotion render src/index.tsx IntegumentarySystem --frames=0-29 out/preview.mp4"
   },
   "repository": {
     "type": "git",
@@ -15,6 +17,11 @@
   "license": "ISC",
   "dependencies": {
     "@remotion/cli": "^4.0.476",
-    "remotion": "^4.0.476"
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "remotion": "^4.0.476",
+    "typescript": "^6.0.3"
   }
 }
