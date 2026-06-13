@@ -1,0 +1,16 @@
+LOCUÇÃO / VOICEOVER
+====================
+
+Adicione o arquivo de áudio como:
+  public/voiceover.mp3
+
+Texto da locução (português brasileiro):
+"Além de proteger o corpo, o sistema tegumentar é formado por estruturas
+que atuam de forma integrada. A epiderme reveste, a derme sustenta e abriga
+vasos, nervos e glândulas, enquanto a hipoderme contribui para proteção,
+reserva de energia e isolamento térmico. Pelos, unhas e glândulas completam
+esse sistema essencial para o equilíbrio do organismo."
+
+Duração total: 20 segundos.
+
+Após adicionar o arquivo, descomente a linha <Audio> em src/Root.tsx.
